@@ -14,19 +14,19 @@ Here is a list of core features of the solution
   2. Pure prompt driven conversation. i.e. no data/content behind conversation.
   3. Ask questions of SQL Server data. Supports dynamics generation of SQL Select statement, execution of statement, and answering initial user question using the data.
 - Manage these prompts in a Model Driven app, as well as:
--   Define Azure Search Endpoints to be used for content based prompts
--   Define Azure Open AI Endpoints to be used in various prompts
--   Test Azure Search queries (you content based conversations are only as good as search results)
--   Add content (PDF documents) into your Azure Search index, and choose config options such as chunk overlap size. Source file location supports Azure Blob storage, in future SharePoint libraries
+  1. Define Azure Search Endpoints to be used for content based prompts
+  2.  Define Azure Open AI Endpoints to be used in various prompts
+  3. Test Azure Search queries (you content based conversations are only as good as search results)
+  4. Add content (PDF documents) into your Azure Search index, and choose config options such as chunk overlap size. Source file location supports Azure Blob storage, in future SharePoint libraries
 
 ## How it works
-There are 3 main components to this solution
-1 - Admin Model Driven App (PVA GPT Manager)
-2 - Power Virtual Agent Chat Bot (Chetty)
-3 - Several Power Automate Flows, which are used by the PVA chat bot to fetch prompt and endpoints from Dataverse and query/call Azure Search, SQL Server, Azure Open AI and more
-4 - Several Power Automate Flows, which allow the Admin Model Driven app to query search index
-5 - Azure Function, which chunks PDF documents and adds to Azure Search Index. Azure Function is written in Python
-6 - Custom Power Platform connector, for the Azure Function.
+There are 6 main components to this solution
+1. Admin Model Driven App (PVA GPT Manager)
+2. Power Virtual Agent Chat Bot (Chetty)
+3. Several Power Automate Flows, which are used by the PVA chat bot to fetch prompt and endpoints from Dataverse and query/call Azure Search, SQL Server, Azure Open AI and more
+4. Several Power Automate Flows, which allow the Admin Model Driven app to query search index
+5. Azure Function, which chunks PDF documents and adds to Azure Search Index. Azure Function is written in Python
+6. Custom Power Platform connector, for the Azure Function.
 
 Watch the following YouTube recording to understand how this all works and fits together - <TBC>
 
