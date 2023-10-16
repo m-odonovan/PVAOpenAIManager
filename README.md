@@ -1,5 +1,5 @@
 # PVA OpenAI Manager
-Sample solution which allows you to manage and configure Azure Open AI GPT powered prompts for Power Virtual Agent via a Model Driven Power App.
+Sample solution which allows you to manage and configure Azure Open AI GPT powered prompts for Microsoft Power Virtual Agent via a Model Driven Power App.
 
 ![Model Driven App](https://github.com/m-odonovan/PVAOpenAIManager/blob/main/images/ModelApp.gif "Model Driven App")
 
