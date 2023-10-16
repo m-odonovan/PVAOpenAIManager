@@ -1,4 +1,4 @@
-#Readme
+##Readme
 There are 2 Power Platform Solution files:
 
 1. DocumentIndexerConnector Custom Connector - this must be imported first
