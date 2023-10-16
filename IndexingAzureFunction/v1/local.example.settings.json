@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
+    "AzureBlobConnection": "<connectionstringgoeshere>",
+    "form_recognizer_service_name": "<hostnamegoeshere e.g. cog-fr-3nva3s3j3a4xx6",
+    "form_recognizer_service_key": "<formrecoginzerkeygoeshere",    
+    "search_svc_name": "<hostnamegoeshere e.g. 3nevaopjqa3sx6>",
+    "search_svc_key": "<serchsvckeygoeshere>"
+    
+    
+  }
+}
