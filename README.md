@@ -1,4 +1,4 @@
-# PVAOpenAIManager
+# PVA OpenAI Manager
 Sample solution which allows you to manage and configure Azure Open AI GPT powered prompts for Power Virtual Agent via a Model Driven Power App
 
 ## Background
