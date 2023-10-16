@@ -6,6 +6,8 @@ This is provided as a solution accelerator. It's a sample solution which is not 
 
 It was created as a result of me having to create Azure Open AI Powered Virtual Agent demo's and PoC solutions regularly, and having to re-create the Power Automate Flow + Prompts each time. This allows me to create these now far quicker, by simply defining new "skills/topcs" in a Model Driven Power App.
 
+Watch the following YouTube recording to understand how this all works and fits together - <TBC>
+
 ## Features
 Here is a list of core features of the solution
 
@@ -29,6 +31,14 @@ There are 6 main components to this solution
 6. Custom Power Platform connector, for the Azure Function.
 
 Watch the following YouTube recording to understand how this all works and fits together - <TBC>
+
+## Installation/Configuration
+This solution assumes you are familier with Power Virtual Agent, Power Apps, and a bit of Azure Open AI. Watch the YouTube video for detailed instructions on how it works and is configured. Also each folder in this repo has instructions on what you need to do to install/configure the solution. At a high-level, you need to:
+
+1. Deploy the Azure Function (if you want to allow for indexing of files using the Model Driven App)
+2. Install the DocumentIndexerConnector Custom Connector Power Platform Solution, and configure environment variable to point to Azure Function URL
+3. Install the GenericPVAGPTManager Power Platform solution (main solution), and create connections as prompted by import process
+4. Open the Model Driven Power App and configure the "skills" needed by adding Azure Open AI endpoint(s), Search Endpoint(s), and adding prompts. A few sample prompts have been shared.
 
 ## Provided "As-Is"
 This is a a starter / sample. It hasn't been well tested, and is missing some key features that I hope to add over time. It not officialy supported by myself or Microsoft. However, because the unmanaged and managed solution is provided, you should be able to support it yourself, either directly or through a certified Microsoft partner.
